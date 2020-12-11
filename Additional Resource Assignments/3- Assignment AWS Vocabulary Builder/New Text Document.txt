@@ -1,0 +1,43 @@
+This assignment allows you to enhance your AWS vocabulary. This is a critical skill when you are interested in mastering AWS certifications.
+
+
+Here you can see I have created for you a list of AWS terms and their definitions. Feel free to copy and paste from the PDF in order to create flashcards in your favorite flash card application. As always, thank you so much for using our AWS course here on Udemy.
+
+NOTE: This list includes some services and terms that are not covered explicitly in the lectures of this course. I decided to include them as a “just in case” measure. DO NOT LET THESE SHAKE YOUR CONFIDENCE.
+Questions for this assignment
+
+Are you ready to challenge yourself? Can you provide definitions for the following:
+
+
+Can you provide definitions for the following:
+
+S3
+
+EC2
+
+Lambda
+
+EBS
+
+EFS
+
+FSx
+
+Glacier
+
+RDS
+
+Redshift
+
+ECS
+
+Aurora
+
+DynamoDB
+
+ElastiCache
+
+Roles
+
+Trusted Advisor
+

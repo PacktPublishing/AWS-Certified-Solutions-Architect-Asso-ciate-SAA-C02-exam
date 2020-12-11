@@ -1,0 +1,111 @@
+Description: Are you ready to prove what you know in the Resilient Architecture section! Here is your milestone quiz. 
+
+
+1. Your company is interested in Aurora for a certain tier of an architecture in AWS. What is the most likely function of this tier? 
+
+Answers:
+
+-End user interface 
+-Database-------------Answer
+-Business logic 
+-Video streaming
+
+
+2. When creating an instance in EC2 using the Management Console, which step permits you to create a firewall to protect the EC2 operating system accessibility? 
+
+Answers:
+
+-Tenancy 
+-User Data 
+-Security Group----Answer
+-Tags
+
+3.What would the term asynchronous decoupling be equivalent to? 
+
+Answers:
+
+-Tight decoupling 
+-Loose decoupling ----Answer
+-Random decoupling 
+-Periodic decoupling 
+
+4.AWS SQS supports two type of queues - the standard queue and what other queue type? 
+
+Answers:
+
+-Low latency 
+-Round robin
+-Custom
+-FIFO -------Answer
+
+
+5. What is the model that SNS uses for the movement of messages that it can transfer? 
+
+Answers:
+
+-Client-Server
+-Publisher-Subscriber ------Answer
+-Source-Destination 
+-Region-Datacenter
+
+6.Which of the following is not a true statement regarding the API Gateway in AWS? 
+
+Answers:
+
+-The AWS API Gateway service does not support Websocket protocol ---Answer
+-The API Gateway creates a RESTful API
+-The API Gateway ensures support for standard HTTP operations 
+-The API Gateway enables stateless client-server communications 
+
+
+7. Where is the definition of the EC2 instances that need to be manipulated in an Auto Scaling group? 
+
+Answers:
+
+-Groups
+-Scaling Options 
+-Configuration templates ----Answer
+-CloudFormation
+
+
+8. Which of the following is not a type of Elastic Load Balancer in AWS? 
+
+Answers:
+
+-Custom Load Balancer ----Answer
+
+-Application Load Balancer
+-Classic Load Balancer
+-Network Load Balancer
+
+9. Which ELB component permits you to configure the balancer to listen to specific ports and protocols? 
+
+Answers:
+
+-Custom Load Balancer
+-Application Load Balancer
+-Classic Load Balancer
+-Network Load Balancer----Answer
+
+10. You want to provide cloud-based NFS shares for your on-prem and cloud-based Linux resources. What service should you use?  
+
+Answers:
+
+-EBS
+-EFS----Answer
+-S3
+-FSx
+
+11. What is the default action when there is an error during the execution of a CloudFormation stack? 
+
+Answers:
+
+-Terminate
+-Rollback----Answer
+-Delete
+-Pause
+
+
+
+
+

@@ -1,0 +1,525 @@
+Description: 
+
+Here is your first practice exam. Use this to check what you need to study further, and also get yourself prepared for the level of difficulty of the actual exam. 
+
+Duration (minutes)--90
+
+Minimum score to pass (percentage)---80
+
+
+
+
+9. How do you identify a client managed encryption key from KMS when you are assigning this key to help protect an AWS bucket? 
+
+Ans. 
+
+Use the API endpoint
+Use the ARN----------Answer
+Use the FQDN 
+Use the VPC endpoint
+
+
+10. You are planning to use AWS Auto Scaling with EC2 instances for an HTTPS application for your internal customers. What technology should you use in conjunction with this solution?  
+
+Ans.
+
+Application Load Balancer ---Answer
+Classic Load Balancer
+Network Load Balancer
+Batch
+
+11. Which of the following is a frequent approach to emailing a group of administrators when a certain AWS SQS event occurs? 
+
+Ans.
+
+EFS
+CloudWatch
+SNS---------Answer
+CloudTrail
+
+
+12. Which S3 storage class would you consider for cost savings with a wide variety of access patterns of the objects? 
+
+Ans.
+
+S3 One Zone-Infrequent Access 
+S3 Standard - Infrequent Access
+S3 Intelligent Tiering --------Answer
+S3 Standard 
+
+13. What AWS S3 storage class features a slight reduction in availability?
+
+Ans.
+
+Standard
+Infrequent access----Answer
+Provisioned-IOPS 
+General 
+
+
+14. Which of the following AWS services relies on a key-value store approach and supports an unlimited number of objects?
+
+Ans.
+
+S3----Answer
+EBS 
+EFS
+SQS
+
+
+15. Your organization is expanding and you would like to create a mirror of your EC2 instance in another region. How can you perform this? 
+
+Ans.
+
+Use the cross region EC2 replication feature
+Use an EBS volume for storage that is located in both regions
+Do nothing, when you create an account in the new region, your EC2 instances are duplicated there
+Create an AMI for the EC2 instance and copy it to the new region------------------------------------Answer
+
+
+16. You are exploring the Elastic Load Balancer options in AWS. What is the default load balancing algorithm with classic ELB?
+
+a. Bandwidth-based
+
+b. Load-based
+
+c. Dykstra
+
+Ans.
+
+Bandwidth-based
+Load-based
+FIFO
+Round Robin-------Answer
+Weighted
+
+
+17. You want to provision several key local resources as you spin up VMs in AWS. How can you configure custom scripts to launch with your EC2 instances?
+
+Ans.
+
+Use the Run During Launch area
+Send the commands via SSH during first boot
+Attach a temporary volume at boot that is prestaged to execute the commands 
+User Data-------------------------------------------------------------------------Answer
+
+
+18. To provide the scalability that is required when dealing with massive amounts of data, AWS Redshift creates nodes in what structure?
+
+Ans.
+
+Placement groups
+Network security groups 
+Clusters ----------------------Answer
+RAID arrays 
+SANs
+
+
+19. When deciding on SQL Server in AWS, which of the following options is valid?
+
+
+Ans.
+
+RDS --------------------Answer
+Dynamo DB
+Neptune
+Aurora 
+
+
+20. What of the following are compatible with ElastiCache? (Choose 2)
+
+a. MS Access
+
+b. PostgreSQL
+
+c. Redis
+
+d. Memcached
+
+Correct Answer: c, d
+
+Ans.
+
+Jnode
+Memcahced --------------------Answer
+SPARQL
+Redis-     -------------------Answer
+
+
+
+21. Your client requires very low latency network access because there will be a software suite expecting a high-performance compute environment. What solution should you consider? 
+
+Ans.
+
+An EC2 active clone
+An EC2 spread placement group 
+An EC2 partition placement group  
+An EC2 cluster placement group ----------Answer
+
+
+22. What feature of AWS is most directly responsible for elasticity? 
+
+Ans.
+
+AWS Auto Scaling ----------Answer
+AWS Organizations 
+AWS CloudTrail
+AWS Placement Groups
+
+
+23. You are interested in assisting a client revamp their current IoT design. They would like to store their streaming data from many different sensors in an assembly factory to the cloud. They are also interested in data analytics taking place on this data as quickly as possible. Which option should be in your solution? 
+
+Ans. 
+
+AWS DMS
+AWS DataSync 
+AWS Neptune 
+Kinesis Data Firehouse  ----------Answer
+
+
+24. Which are two common methods of configuring auto scaling for EC2? (Choose 2)
+
+Ans. 
+
+Scale based on an IAM account 
+Scale based on a monthly schedule ----------Answer
+Scale based on a CloudWatch metric ---------Answer
+Scale based on Trusted Advisor events 
+
+
+25. What is a common practice with AWS Aurora should your database be struggling to keep up with the number of requests for information? 
+
+
+Ans. 
+
+Create additional AWS accounts in additional regions 
+Create read replicas  --------------------------------------------Answer
+Increase the number of S3 buckets that backup the Aurora service 
+Migrate the solution to AWS RDS
+
+
+26. Your organization has hundreds of terabytes of data that they would like stored in the cloud. This data is at a remote site that lacks high bandwidth connectivity to the AWS cloud. What solution should you consider? 
+
+
+Ans. 
+
+Snowball  ----------Answer
+DMS
+DataSync
+Organizations 
+
+
+27. You want to store a large amount of simple key value pairs and you are lookig for high performance at a low cost in AWS. What would be an appropriate option? 
+
+Ans. 
+
+Neptune
+Aurora
+DynamoDB----------Answer
+RDS
+
+28. Your corporate cloud policy dictates that a remote cold site must be fully equipped the previous month's data sets. It also states that several key resources should be "pre-warmed" in the cold site. Finally, this cold site should be located at least 3,000 miles from the primary site. Which of the following is most likely part of your solution? 
+
+Ans. 
+
+Replicate S3 data to the remote region ---------Answer
+Use AWS Organizations to deploy Auto DR
+Use AWS EBS to replicate block storage 
+Use the auto deploy feature of AWS RDS
+
+
+29. What AWS solution is specifically targeted at HPC solutions? 
+
+
+Ans. 
+
+FSx---------Answer
+EFS
+EBS
+S3
+
+
+30.What component of a VPC ensures that EC2 instances can be reached from the Internet?
+
+Ans. 
+
+Subnet endpoint 
+Internet Gateway---------Answer
+NAT Gateway
+NAT Instance 
+
+
+31.THISISIT.IO is currently doing work in the area of big data. The research time needs timely, low-latency access to some of the data, but the bulk of the data can remain in an archive-like storage location at rest. What type of solution should THISISIT.IO architect?
+
+Ans.
+
+Storage Gateway – Stored Volume
+Storage Gateway – Cached Volume---------Answer
+Storage Gateway – File Gateway
+Storage Gateway – Tape Gateway
+
+32.You have been asked to design an S3 infrastructure for your AWS implementation. You must ensure that you protect against accidental object deletion or overwrite. What two mechanisms should you consider implementing? (Choose two)
+
+Ans.
+
+Object lifecycle
+Server access logging
+Versioning---------Answer
+Use AWS Shield
+MFA---------Answer
+
+33.Which service of AWS provides block-based storage and is utilized with the EC2 service?
+
+Ans.
+
+EFS
+S3
+FSx
+EBS---------Answer
+
+34.Which service of AWS would you use if you must provide resilient cloud-based storage for your SMB shares?
+
+Ans.
+
+EFS
+FSx---------Answer
+EBS
+S3
+Glacier
+
+35.Which service of AWS is recommended for Linux network file shares?
+
+Ans.
+
+EFS---------Answer
+FSx
+EBS
+S3
+Glacier
+
+36.Which service of AWS is ideal for archiving old log files that you must keep in order to maintain compliance with government regulations?
+
+Ans.
+
+EFS
+FSx
+EBS
+S3
+Glacier---------Answer
+
+37.Which two statement below about S3 are false? (Choose 2)
+
+Ans.
+
+S3 buckets can be secured with ACLs or a policy
+S3 buckets names must be unique to a region---------Answer
+By default, the creator of the bucket has full access to the bucket
+Bucket contents can be made globally available
+S3 bucket contents can be password protected, but not encrypted---------Answer
+
+38.Your boss has asked that you save on AWS expenditures by using reserved instances in EC2. What type of workload is ideal for reserved instance pricing?
+
+Ans.
+
+Highly variable
+Memory intensive
+Fixed and predictable---------Answer
+Disk intensive
+
+39.THISISIT.IO is interested in hosting several websites using the most cost-effective manner possible. The company is considering web site hosting via S3 buckets. Which two statements are true? (Choose 2)
+
+Ans.
+
+The websites can consist of client-side scripts ---------Answer
+The websites can consist of server-side scripts
+The websites cannot consist of content in subdirectories 
+You must set permissions on the bucket contents ---------Answer
+
+40.You have just gained customers for a web-based SaaS app that you are delivering in the US. These customers are located in Asia-Pacific. What service of AWS can assist you with a high-performance delivery of the SaaS app to these new customers? 
+
+Ans.
+
+CloudFormation
+Lambda
+CloudFront---------Answer
+Elastic Beanstalk
+
+41.THISISIT.IO is expanding operations and has created several AWS accounts based on departments of the enterprise. Unfortunately, there have been challenges regarding costs and billings. What tool permits THISITIT.IO to better manage and consolidate billing in the enterprise? 
+
+Ans.
+
+AWS Organizations---------Answer
+AWS Glue
+AWS DataSync
+AWS Service Endpoints
+
+42.Your enterprise needs to store its Customer Managed Keys (CMS) for several AWS services and would also like automated key rotation. Which service of AWS should be used? 
+
+Ans.
+
+AWS Systems Manager Parameter Store 
+AWS Secrets Manager 
+AWS Shield 
+AWS Key Management Service (KMS)---------Answer
+
+43.Which two security resources do you use in a VPC in order to secure traffic? (Choose 2)
+
+Ans.
+
+Security Groups---------Answer
+VLAN Access Control Lists
+Network Access Control Lists---------Answer
+Virtual IPS (VIPS)
+
+44.What Route53 concept is the same as a traditional DNS zone file?
+
+Ans.
+
+A domain
+A record set
+A hosted zone---------Answer
+An Edge Location
+
+45.You are interested in using event driven triggers to launch compute functions in AWS without relying on the provisioning and maintenance of EC2 instances. What service should you use?
+
+Ans.
+
+Redshift
+ElastiCache
+Lambda---------Answer
+Kinesis
+
+46.What service seeks to assist your developers in deploying applications by building the appropriate infrastructure for them?
+
+Ans.
+
+Lambda 
+Redshift
+Elastic Beanstalk---------Answer
+Lightsail
+
+47.What is the term used in AWS when you are choosing the appropriate CPU and RAM for your EC2 VM? 
+
+Ans.
+
+Instances---------Answer
+Images
+Forms
+Tenenacies
+
+48.Which of the following is not considered a key advantage of a migration to cloud technologies? 
+
+Ans.
+
+Infrastructure as code 
+Pay as you go model
+Full control over all resources---------Answer
+Flexibility 
+
+49.Which of the resources below are you unable to associate a Web ACL with? 
+
+Ans.
+
+Application Load Balancer
+AWS API Gateway
+CloudFront
+Lambda---------Answer
+
+50.In a typical public subnet implementation of a VPC in AWS, what component performs that NAT for you by default? 
+
+Ans.
+
+Internet Gateway---------Answer
+NAT Gateway
+NAT Instance
+VPC Link
+
+51.You are building a new solution in AWS. You are going to need large amounts of compute resources for three business days at the end of every month. What purchase option should be your first consideration? 
+
+Ans.
+
+Spot
+Scheduled reserved instances---------Answer
+One-demand 
+Rotating 
+
+52.You are interested in following the best practices recommended by Amazon for the use of the root AWS account. Which two of the following represent these best practices? (Choose 2)
+
+Ans.
+
+Ensure you use the root account as little as possible---------Answer
+Always use MFA on the root account---------Answer
+Include an inline policy for this root account
+Ensure you add the root user account to a group that has full AWS admin permissions
+
+53.You are hosting several static Web sites using AWS S3 buckets and the website hosting feature. You have done this to pursue more serverless compute options inside of your solutions. How can you improve the performance of these web sites for your customer? 
+
+Ans.
+
+Move the hosting to EC2 serverless web 
+Use CloudFront with the static web sites---------Answer
+Move the solution to AWS RDS
+Use Kinesis streams to funnel web requests more quickly to AWS S3
+
+54.What feature of AWS S3 would help protect your organization against the accidental overwrite of key data in a bucket?
+
+Ans.
+
+Server access logging 
+Object lifecycle 
+Versioning---------Answer
+Folder hierarchy
+
+55.What method can you use with MySQL inside of AWS RDS in order to increase HA and performance? 
+
+Ans.
+
+Full redundant RDS cross-region 
+Multi-AZ RDS Read Replica---------Answer
+Provisioned IOPS EBS
+Use the fast caching feature 
+
+56.You are assisting a client that needs to classify some key data in the organization. You have decided to use AWS Macie to help you with this task. How can you take the NFS file share information and easily back it up to AWS S3 for analysis by AWS Macie? 
+
+Ans.
+
+Use the Storage Gateway - File Gateway feature ---------Answer
+Use the built-in AWS Macie Transfer
+Use the Replication Agent built in to the AWS CLI
+Replicate the NFS share to FSx in AWS
+
+57.In addition to the consolidation of billing configurations, what can AWS Organizations assist you with in AWS? 
+
+Ans.
+
+Placing restrictions on service usage across different AWS accounts of your Enterprise---------Answer
+Allow for the cross region replication of AWS Neptune 
+Permit the inclusion of your hypervisor software on dedicated instances
+Permit the auditing of AWS internal access to your resources 
+
+58.You are considering your options for databases in AWS. What is an excellent choice for a brand new RDBMS option in AWS? 
+
+Ans.
+
+Aurora---------Answer
+DynamoDB
+ElastiCache
+Athena
+
+59.Which statement about the global infrastructure of AWS is false? 
+
+Ans.
+
+There are Edge Locations which power CloudFront 
+There is at least one AZ per region---------Answer
+There are several regions in North America 
+Datacenter(s) are located in Availability Zones 
+
+60.Which service is not considered a compute service of AWS? 
+
+Ans.
+
+Lambda
+EBS---------Answer
+Elastic Beanstalk
+Lightsail 

@@ -1,0 +1,108 @@
+1. What is the service that makes monitoring key metrics for your AWS architecture a simple matter? 
+
+Answers:
+
+-ElastiCache
+-Athena
+-CloudWatch----Answers
+-CloudTrail
+
+
+2. What is the native AWS service for ensuring your Docker containers function seamlessly for your solutions that require them? 
+
+
+Answers:
+
+-ECS ---Answers
+-Lambda
+-ElastiSearch
+-Aurora
+
+
+3. Which service should you consider employing in order to receive data streams from your IoT sensors and process the data in the cloud? 
+
+Answers:
+
+-AWS Cognito
+-AWS Kinesis----Answer
+-AWS Lambda
+-AWS DMS
+
+4.What service does AWS offer for machine learning-based categorization of your data? 
+
+Answers:
+
+-AWS Macie-----Answer
+-AWS Athena
+-AWS CloudTrail
+-AWS Aurora
+
+
+5.Which is the best description of AWS Lambda?
+
+Answers:
+
+-An AWS managed compute pool that is available to run your functions--Answer
+-An AWS managed storage pool that performs intelligent tiering 
+-A machine learning algorithm accessible from AWS EC2 instances 
+-An Amazon invented RDBMS
+
+6.What prefix do you use in a route table to direct subnet requests for the Internet to an Internet Gateway? 
+
+
+Answers:
+
+-0.0.0.0/32
+-255.255.255.255/32
+-0.0.0.0/0------------Answer
+-255.255.255.255/0
+
+
+7. Your supervisor wishes that she could run some basic SQL queries against some large CSV files stored in an S3 bucket. What solution should you recommend? 
+
+Answers: 
+
+-RDS
+-DynamoDB
+-Neptune
+-Athena----Answer
+
+
+8.Which engine of ElastiCache is more complex but permits more features? 
+
+Answers:
+
+-Redis----Answer
+-SQL
+-NoSQL
+-Key store
+
+9.What database of AWS RDS is an invention of Amazon? 
+
+Answers:
+
+-Oracle
+-Aurora----Answer
+-Neptune
+-MySQL
+
+
+10. Edge Locations are part of the AWS Global Infrastructure. What service do these important components accommodate? 
+
+Answers:
+
+-CloudFront----Answer
+-CloudFormation
+-Aurora
+-Organizations 
+
+
+11.What service of AWS can perform health checks against AWS resources and direct traffic at healthy hosts? This service resolves IP addresses to names. 
+
+Answers:
+
+-IAM
+-Route 53----Answer
+-NAT Gateway
+-ElastiSearch
+

@@ -1,0 +1,47 @@
+Description:
+
+Great job completing the first major section of the course. At this point, I bet you are super excited to dive right in and start designing killer AWS solutions. Not so fast! Let's pause and make sure you have mastered some key material from this section! 
+
+
+1. Which of the following is not one of the five pillars of the Well Architected Framework from AWS? 
+
+Answers:
+
+-Operational excellence
+-Multivendor friendly -----Answer
+-Security 
+-Performance 
+-Cost optimization 
+-Reliability 
+
+2. What is the best definition of elasticity in relation to AWS? 
+
+Answers:
+
+-The ability of a solution to scale larger and smaller with ease---Answer
+-The scalability of a solution 
+-The ability of a solution to permit anonymous access 
+-The ability of a solution to be closely measured 
+
+
+3. What management option requires the download and installation of code on your local system? 
+
+Answers:
+
+-A custom web interface 
+-The Management Console 
+-The AWS CLI------------Answer
+-The EC2 dashboard 
+
+
+4. Which of the following is not considered an AWS compute service? 
+
+Answers:
+
+-EC2
+-S3  ----Answer
+-Lambda
+-Elastic Beanstalk 
+
+
+

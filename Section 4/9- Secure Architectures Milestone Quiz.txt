@@ -1,0 +1,45 @@
+Description:
+
+It is time to see where you might have weak areas in the secure architecture section. 
+
+
+1. Which of the following is not a component of AWS IAM? 
+
+Answers:
+
+-User
+-Group
+-Role
+-Record----Answers
+
+
+
+2. Which firewall in AWS is associated with subnet(s)? 
+
+Answers:
+
+-Security Group
+-NACL----------Answer
+-Shield
+-Athena
+
+3. What is a major advantage of using AWS KMS? 
+
+Answers:
+
+-A slight sacrifice of security for increased performance 
+-Automated key rotation----------------------------------------Answer
+-Faster key transfer to on-prem devices
+-Automated cross account permission sets 
+
+
+4.How are charges accumulated in AWS WAF? 
+
+Answers:
+
+-Per cluster 
+-Per instance
+-Per ACL---------Answer
+-Per TB
+
+

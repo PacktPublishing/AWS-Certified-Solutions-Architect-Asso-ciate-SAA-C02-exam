@@ -1,0 +1,43 @@
+Description:
+
+Check your knowledge in this final domain of the AWS Solutions Architect - Associate blueprint. 
+
+
+1. Which would be the least latency for reads of S3 objects, but could be the most expensive? 
+
+Answers:
+
+-IA
+-1Z-IA
+-Standard---------Answer
+-Glacier
+-Glacier Deep Archive
+
+2. What service of AWS permits you to consolidate the billing of multiple AWS accounts? 
+
+Answers:
+
+-Organizations---------Answer
+-Cost Center
+-Service Manager 
+-Resource Manager
+
+
+3. Which of the following is not an instance purchase option? 
+
+Answers:
+
+- On-demand
+- Reduced IOPS---------Answer
+- Spot
+- Reserved
+
+4. What service could you use with Billing Alarms to email a large number of recipients of finance? 
+
+Answers
+
+-CloudWatch
+-CloudTrail
+-SQS
+-SNS-------Answer
+
